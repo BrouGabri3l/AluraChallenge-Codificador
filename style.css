@@ -80,9 +80,15 @@ button{
     font-family: 'Inter',sans-serif;
     margin: 1em;
 }
+button:active{
+    background: #c5c5c5;
+}
 .color{
     background: #0A3871;
     color:#fff
+}
+.color:active{
+    background: #062d5e;
 }
 main div{
     display: flex;

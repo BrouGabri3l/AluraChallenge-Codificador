@@ -73,7 +73,7 @@ function descriptografar() {
     if (res.length > 0) {
         result.innerHTML = `
     <p>${res}</p>
-    <button onClick="copy()">
+    <button onClick="copiar()">
         Copiar
     </button>
     `
