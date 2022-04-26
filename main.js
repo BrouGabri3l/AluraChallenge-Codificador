@@ -16,8 +16,8 @@ function teste(str) {
     } else {
         document.querySelector('main div').innerHTML = `<p>O campo de texto contém letras maiúsculas ou acentuadas</p>`
     }
-    document.getElementById('btnCriptografar').addEventListener('click', () => criptografar())
-    document.getElementById('btnDescriptografar').addEventListener('click', () => descriptografar())
+    document.getElementById('btnCriptografar').addEventListener('click', criptografar)
+    document.getElementById('btnDescriptografar').addEventListener('click', descriptografar)
 }
 
 function criptografar() {
